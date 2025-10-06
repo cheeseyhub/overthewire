@@ -11,3 +11,6 @@ openssl s_client can be used to connect to a server with tls and ssl protocol. I
 
 ** Level 16 *** -
 nmap -p min-max  can be use to find ports. use -quiet flag on openssl s_client to get rid of the done and keyupdate errors.
+
+** Level 18 *** -
+ssh with the -t flag can be used to run commands on the remote server using quotations and && sign to combine commands
