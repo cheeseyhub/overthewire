@@ -17,3 +17,6 @@ ssh with the -t flag can be used to run commands on the remote server using quot
 
 ** Level 19 *** - 
 chmod u+s sets the 's' bit on the permissions for the user so now when a user executes the file it is executed as the owner of the file.
+
+** Level 20 ** -
+The '&' after a command runs the command / program in the background allowing for terminal use it displays the job id [1] then [1234] the PID(Process ID) ps -p PID can be used to check the status we can use kill then PID to kill a process.
