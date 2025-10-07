@@ -14,3 +14,6 @@ nmap -p min-max  can be use to find ports. use -quiet flag on openssl s_client t
 
 ** Level 18 *** -
 ssh with the -t flag can be used to run commands on the remote server using quotations and && sign to combine commands
+
+** Level 19 *** - 
+chmod u+s sets the 's' bit on the permissions for the user so now when a user executes the file it is executed as the owner of the file.
