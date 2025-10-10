@@ -20,3 +20,21 @@ chmod u+s sets the 's' bit on the permissions for the user so now when a user ex
 
 ** Level 20 ** -
 The '&' after a command runs the command / program in the background allowing for terminal use it displays the job id [1] then [1234] the PID(Process ID) ps -p PID can be used to check the status we can use kill then PID to kill a process.
+
+** Level 21 **
+CronJobs are programs that run in the background at regular intervals. /etc/cron.daily , hourly ,monthly etc contain instructions on running the programs
+There structure is like this
+*    *    *    *    *   /home/user/bin/somecommand.sh
+|    |    |    |    |            |
+|    |    |    |    |    Command or Script to execute
+|    |    |    |    |
+|    |    |    | Day of week(0-6 | Sun-Sat)
+|    |    |    |
+|    |    |  Month(1-12)
+|    |    |
+|    |  Day of Month(1-31)
+|    |
+|   Hour(0-23)
+|
+Min(0-59)
+
