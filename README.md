@@ -38,3 +38,5 @@ There structure is like this
 |
 Min(0-59)
 
+** Level 24 **
+To print numbers within range do for var in {0000..9999}; do echo $var; done
